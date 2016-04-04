@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prometheus.marcos.giftcard.MainActivity">
+
+    <ImageView
+    android:src="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#558b2f"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:text="This gift is for..." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#558b2f"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:text="You" />
+</RelativeLayout>
